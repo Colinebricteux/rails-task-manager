@@ -1,0 +1,11 @@
+<h1>The ugly TO DO manager 💩</h1>
+
+<h2><%=@task.title%></h2>
+
+<p><%=@task.details%></p>
+
+<p><%= link_to "🔁 Edit the task", tasks_edit_path(@task.id) %></p>
+
+<div class="link">
+  <%= link_to "➤ Back to the list", tasks_path %>
+</div>
